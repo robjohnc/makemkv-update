@@ -3,7 +3,7 @@ Short bash script to automatically update makemkv, or install it if it's not alr
 
 Options:
 
--h | --help                               Show this help screen
+-h | --help                               Show the help screen
 
 -f | --force                              Force Reinstall
 
