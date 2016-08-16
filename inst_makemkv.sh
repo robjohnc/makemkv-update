@@ -83,7 +83,7 @@ if [ -e "$TMPDIR" ]; then rm -rf $TMPDIR; fi
 
 echo "The MakeMKV Key is: $MAKEMKV_KEY"
 fi
-exit 1
+exit 0
 }
 
 
@@ -118,7 +118,7 @@ if [ "$showkey" == "True" ]; then
 #    MAKEMKV_KEY=$(curl "http://www.makemkv.com/forum2/viewtopic.php?f=5&t=1053" -s | awk 'FNR == 243 {print $57}' | cut -c 21-88)
     get_vars
     echo "The MakeMKV Key is: $MAKEMKV_KEY"
-    exit 1
+    exit 0
 fi
 }
 
