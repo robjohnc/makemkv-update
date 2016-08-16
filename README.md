@@ -1,4 +1,16 @@
 # makemkv-update
 Short bash script to automatically update makemkv, or install it if it's not already installed.
 
-The running the script as "./inst_makemkv.sh key" will result in just the key being output.
+Options:
+
+-h | --help                               Show this help screen
+
+-f | --force                              Force Reinstall
+
+-k | --key                                Show MakeMKV Trial Key and exit
+
+-v | --version                            Print current/latest version then exit
+
+-i <version> |--install <version>         Install Version specified by <version>, to allow you to install a previous version, instead of the latest
+
+
