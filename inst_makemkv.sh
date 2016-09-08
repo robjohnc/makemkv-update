@@ -19,7 +19,7 @@ echo "-v | --version                            Print current/latest version the
 echo
 echo "-i <version> |--install <version>         Install Version specified by <version>"
 echo
-exit 1
+exit 0
 }
 
 function get_vars {
@@ -104,7 +104,7 @@ function get_ver {
 		
 		if [ "$force" != "True" ]; then
 			echo "Use -f or --force to force install"
-			exit 1
+			exit 0
 		else
 			inst_mkmkv
 		fi
