@@ -46,7 +46,8 @@ VER="$version"
 TMPDIR=`mktemp -d`
 
 # Install prerequisites
-sudo apt-get install build-essential pkg-config libc6-dev libssl-dev libexpat1-dev libavcodec-dev libgl1-mesa-dev libqt4-dev
+sudo apt update
+sudo apt install build-essential pkg-config libc6-dev libssl-dev libexpat1-dev libavcodec-dev libgl1-mesa-dev libqt4-dev zlib1g-dev
 
 # Install this version of MakeMKV
 pushd $TMPDIR
