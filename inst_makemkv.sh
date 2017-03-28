@@ -37,7 +37,7 @@ read -p "Please confirm: Would you like to update? (y/n)" -n 1 -r
 echo    # (optional) move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-    # do dangerous stuff
+# do dangerous stuff
 
 # Collect sudo credentials
 sudo -v
